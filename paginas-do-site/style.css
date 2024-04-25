@@ -1,19 +1,38 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+/* azul: #3F10FA
+   roxa: #5541A5
+   roxo-claro: #4F2FCF
+   roxo-escuro: #3E3A50 */
+
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
+
+}
+
+:root {
+    --fonte1: "Black Ops One", 'sans-serife';
 }
 
 
  h1 {
-    padding-top: 150px;
-    font-size: 80px;
+    padding-top: 200px;
     text-align: center;
+    text-shadow: 4px 2px 2px  #3E3A50;
+    font-size: 100px;
+    font-family: var(--fonte1);
+    color: #00a6ac;
+    
     
 }
 
 body {
-    background-color: rgb(187, 186, 186);
+    background-color: white;
+}
+
+ul {
+    list-style: ;
 }
