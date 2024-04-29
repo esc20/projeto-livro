@@ -30,9 +30,21 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(182, 182, 182);
 }
 
-ul {
-    list-style: 
+section#img {
+
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
 }
+
+section#img01 {
+    background-image: url('imagens/crianças-indigenas.jpg');
+    height: 700px;
+    width: 466px;
+    position: center;
+    background-repeat: no-repeat;
+}
+
