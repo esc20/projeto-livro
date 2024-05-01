@@ -43,7 +43,29 @@ section#img {
 img {
     height: 700px;
     width: 1348px;
-    position: ;
-
+    
 }
 
+img#galeria01 {
+    height: 260px;
+    width: 300px;
+    padding-left: 90px;
+}
+
+img#galeria02 {
+    height: 260px;
+    width: 300px;
+    padding-left: 5px;
+}
+
+img#galeria03 {
+    height: 260px;
+    width: 300px;
+    padding-left: 5px;
+}
+
+img#galeria04 {
+    height: 260px;
+    width: 300px;
+    padding-left: 5px;
+}
