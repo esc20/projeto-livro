@@ -30,19 +30,21 @@
 }
 
 body {
-    background-color: rgb(182, 182, 182);
+    background-color:  #c0c0c0;
 }
 
 section#img {
 
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color:  #c0c0c0;
 }
 
 img {
     height: 700px;
     width: 1348px;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -68,4 +70,38 @@ img#galeria04 {
     height: 260px;
     width: 300px;
     padding-left: 5px;
+}
+
+.menu {
+list-style: none;
+border: 3px solid #c0c0c0;
+float: left;
+}
+
+.menu li {
+    margin-left: 15px;
+    font-family: var(--fonte1);
+    position: relative;
+    float: left;
+    border-right:5px solid #c0c0c0;
+    
+}
+
+.menu li a{
+     color:#fffefe;
+     text-decoration:none; 
+     padding:10px 30px; 
+     display:block; 
+     border-radius: 4px; 
+     text-shadow: 2px 3px 4px red;
+     font-size: 20px;
+    }
+
+
+.menu li a:hover {
+background: #00fdc6c0;
+color:#fa0202;
+-moz-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+transition: 1s;
 }
