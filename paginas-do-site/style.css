@@ -29,8 +29,20 @@
     
 }
 
+
+
 body {
     background-color:  #c0c0c0;
+}
+
+section#cabecario {
+    background-color: #3E3A50;
+    color: black;
+}
+
+section.normal {
+    background-color: #c0c0c0;
+    color: black;
 }
 
 section#img {
@@ -40,19 +52,48 @@ section#img {
     background-color:  #c0c0c0;
 }
 
-img {
-    height: 700px;
-    width: 1348px;
+section.imagem {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
     background-size: cover;
     background-attachment: fixed;
     
 }
 
+section#img01 {
+  background-image: url(../paginas-do-site/imagens/crianças-indigenas-transformed.jpeg);
+  background-position: center;
+  height: 700px;
+  width: 1348px;
+  
+
+}
+section#galeriafull {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 img#galeria01 {
+    
     height: 260px;
     width: 300px;
     padding-left: 90px;
 }
+
+
+a#foto1 :hover {
+    color: rgb(255, 90, 48);
+    padding-left: 90px;
+    opacity: 0.5;
+    transition: 2s linear;
+    transition-duration: 2.1s;
+    transform: scale(1.1);
+
+    
+}
+
+
 
 img#galeria02 {
     height: 260px;
@@ -105,3 +146,4 @@ color:#fa0202;
 text-shadow:0px 0px 5px #fff;
 transition: 1s;
 }
+
