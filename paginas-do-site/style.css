@@ -81,6 +81,23 @@ img#galeria01 {
     padding-left: 90px;
 }
 
+img#galeria02 {
+    height: 260px;
+    width: 300px;
+    padding-left: 90px;
+}
+
+img#galeria03 {
+    height: 260px;
+    width: 300px;
+    padding-left: 90px;
+}
+
+img#galeria04 {
+    height: 260px;
+    width: 300px;
+    padding-left: 90px;
+}
 
 a#foto1 :hover {
     color: rgb(255, 90, 48);
@@ -89,10 +106,37 @@ a#foto1 :hover {
     transition: 2s linear;
     transition-duration: 2.1s;
     transform: scale(1.1);
+}
+
+
+a#foto2 :hover {
+    color: rgb(255, 90, 48);
+    padding-left: none;
+    opacity: 0.5;
+    transition: 2s linear;
+    transition-duration: 2.1s;
+    transform: scale(1.1);
 
     
 }
 
+a#foto3 :hover {
+    color: rgb(255, 90, 48);
+    padding-left: none;
+    opacity: 0.5;
+    transition: 2s linear;
+    transition-duration: 2.1s;
+    transform: scale(1.1);
+}
+
+a#foto4 :hover {
+    color: rgb(255, 90, 48);
+    padding-left: none;
+    opacity: 0.5;
+    transition: 2s linear;
+    transition-duration: 2.1s;
+    transform: scale(1.1);
+}
 
 
 img#galeria02 {
