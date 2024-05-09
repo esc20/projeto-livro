@@ -17,6 +17,41 @@
     --fonte1: "Black Ops One", 'sans-serife';
 }
 
+.menu {
+    list-style: none;
+    border: 3px solid #3E3A50;
+    float: left;
+    }
+    
+    .menu li {
+        margin-left: 15px;
+        font-family: var(--fonte1);
+        position: relative;
+        float: left;
+        border-right:5px solid #3E3A50
+        
+    }
+    
+    .menu li a{
+         color:#fffefe;
+         text-decoration:none; 
+         padding:10px 30px; 
+         display:block; 
+         border-radius: 4px; 
+         text-shadow: 2px 3px 4px red;
+         font-size: 20px;
+        }
+    
+    
+    .menu li a:hover {
+    background: #00fdc6c0;
+    color:#fa0202;
+    -moz-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+    transition: 1s;
+    }
+    
+
 
  h1 {
     padding-top: 200px;
@@ -104,7 +139,7 @@ a#foto1 :hover {
     padding-left: 90px;
     opacity: 0.5;
     transition: 2s linear;
-    transition-duration: 2.1s;
+    transition-duration: 1.1s;
     transform: scale(1.1);
 }
 
@@ -114,7 +149,7 @@ a#foto2 :hover {
     padding-left: none;
     opacity: 0.5;
     transition: 2s linear;
-    transition-duration: 2.1s;
+    transition-duration: 1.1s;
     transform: scale(1.1);
 
     
@@ -125,7 +160,7 @@ a#foto3 :hover {
     padding-left: none;
     opacity: 0.5;
     transition: 2s linear;
-    transition-duration: 2.1s;
+    transition-duration: 1.1s;
     transform: scale(1.1);
 }
 
@@ -134,7 +169,7 @@ a#foto4 :hover {
     padding-left: none;
     opacity: 0.5;
     transition: 2s linear;
-    transition-duration: 2.1s;
+    transition-duration: 1.1s;
     transform: scale(1.1);
 }
 
@@ -157,38 +192,5 @@ img#galeria04 {
     padding-left: 5px;
 }
 
-.menu {
-list-style: none;
-border: 3px solid #c0c0c0;
-float: left;
-}
-
-.menu li {
-    margin-left: 15px;
-    font-family: var(--fonte1);
-    position: relative;
-    float: left;
-    border-right:5px solid #c0c0c0;
-    
-}
-
-.menu li a{
-     color:#fffefe;
-     text-decoration:none; 
-     padding:10px 30px; 
-     display:block; 
-     border-radius: 4px; 
-     text-shadow: 2px 3px 4px red;
-     font-size: 20px;
-    }
-
-
-.menu li a:hover {
-background: #00fdc6c0;
-color:#fa0202;
--moz-box-shadow: 0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
-transition: 1s;
-}
 
 
